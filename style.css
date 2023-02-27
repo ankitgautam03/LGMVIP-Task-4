@@ -1,0 +1,82 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url("https://source.unsplash.com/random/?nature,beaches,mountains,adventure") no-repeat center center/cover;
+    
+}
+
+
+#calculator{
+ width: 380px;
+ height: 650px;
+ background-color: #eaedef;
+ margin: 40px auto;
+ border-radius: 5px;
+ box-shadow:  5px 5px rgb(84, 153, 231);
+}
+
+#result{
+ height: 180px;
+}
+
+#keyboard{
+ height: 400px;
+}
+
+#history{
+ text-align: right;
+ height: 40px;
+ margin: 0 20px;
+ padding-top: 20px;
+ font-size: 22.5px;
+ color: cadetblue;
+}
+
+#output{
+ text-align: right;
+ margin: 10px 20px;
+ font-size: 32.5px;
+}
+
+.operator, .number, .empty{
+ height: 65px;
+ width: 65px;
+ margin: 15px;
+ float: right;
+ border-radius: 40%;
+ border-width: 0;
+ font-weight: bolder;
+ font-size: 25px;
+}
+
+.operator{
+ background-color:cornflowerblue;
+
+}
+.number{
+ background-color:rgb(172, 84, 194);
+}
+
+.number, .operator{
+ cursor: pointer;
+}
+
+.operator:focus, .number:focus{
+ font-size: 21px;
+
+}
+
+button:nth-child(1){
+ font-size: 30px;
+}
+button:nth-child(5){
+ font-size: 30px;
+}
+button:nth-child(9){
+ font-size: 40px;
+}
+button:nth-child(13){
+ font-size: 30px;
+}
+button:nth-child(17){
+ font-size: 30px;
+}
